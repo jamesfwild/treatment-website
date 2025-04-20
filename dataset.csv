@@ -1,0 +1,46 @@
+id,patient_id,name,age,sex,id,patient_id,doctor_id,id,name,specialty,contact_info,id,patient_id,doctor_id,histological_subtype,tumor_size,second_tumor_size,third_tumor_size,tumor_grade,node_status,metastasis,tnm_tumor,clinical_stage,er_status,pr_status,her2_status,ki_67_categorised,ki_67,final_treatment_plan,method
+1,NULL,,69,F,1,1,1,1,Bernard Seshie,,,1,1,1,Invasive Carcinoma,2.82,NULL,NULL,2,1,0,2,T2N1M0,0,0,2,3,70%,"Breast Conserving Surgery, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy",Entry
+2,NULL,,35,F,2,2,1,1,Bernard Seshie,,,2,2,1,Invasive Carcinoma,3,2.8,NULL,2,1,0,3,T3N1M0,1,1,0,3,80%,"Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy, Hormonal Therapy",Entry
+4,NULL,MAT,35,F,4,4,1,1,Bernard Seshie,,,4,4,1,Invasive Carcinoma,15,NULL,NULL,2,2,0,4b,T4bN2M0,1,1,0,2,30%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Radiotherapy, Hormonal Therapy",Entry
+5,NULL,BM,42,F,5,5,1,1,Bernard Seshie,,,5,5,1,Invasive Carcinoma,4,NULL,NULL,3,1,0,3,T3N1M0,1,0,1,3,50%,"Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy, Hormonal Therapy",Entry
+6,NULL,EE,69,F,6,6,1,1,Bernard Seshie,,,6,6,1,Invasive Carcinoma,4.7,NULL,NULL,3,1,0,3,T3N1M0,1,1,1,3,60%,"Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy, Hormonal Therapy",Entry
+7,NULL,RNG,61,F,7,7,1,1,Bernard Seshie,,,7,7,1,Invasive Carcinoma,1.2,NULL,NULL,1,NULL,0,1c,T1cN1aMx,1,0,1,3,40%,"Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Hormonal Therapy",Entry
+8,NULL,CN,44,F,8,8,1,1,Bernard Seshie,,,8,8,1,Invasive Carcinoma,1.9,NULL,NULL,NULL,0,0,1,T1N0M0,0,0,0,3,50%,"Mastectomy, Axillary Surgery, Adjuvant Chemotherapy",Entry
+9,NULL,MAO,52,F,9,9,1,1,Bernard Seshie,,,9,9,1,Invasive Carcinoma,8,NULL,NULL,3,2,0,3,T3N2M0,0,0,2,3,40%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Herceptin, Radiotherapy",Entry
+10,NULL,FMA,55,F,10,10,1,1,Bernard Seshie,,,10,10,1,Invasive Carcinoma,8,NULL,NULL,2,2,0,3,T3N2M0,1,1,0,2,20%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Radiotherapy, Hormonal Therapy",Entry
+12,NULL,NTP,45,F,12,12,1,1,Bernard Seshie,,,12,12,1,Invasive Carcinoma,4.7,NULL,NULL,2,0,0,2,T2N0M0,1,0,0,3,60%,"Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy, Hormonal Therapy",Entry
+14,NULL,RD,68,F,14,14,1,1,Bernard Seshie,,,14,14,1,Invasive Carcinoma,20,NULL,NULL,3,2,0,4b,T4bN2M0,1,1,0,3,60%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Radiotherapy, Hormonal Therapy",Entry
+15,NULL,BM,26,F,15,15,1,1,Bernard Seshie,,,15,15,1,Invasive Carcinoma,3.4,NULL,NULL,3,NULL,0,NULL,,0,0,0,3,50%,"Breast Conserving Surgery, Axillary Surgery, Adjuvant Chemotherapy, Hormonal Therapy, Radiotherapy",Entry
+16,NULL,MA,69,F,16,16,1,1,Bernard Seshie,,,16,16,1,Ulcerated Invasive Carcinoma,15,NULL,NULL,3,2,0,4b,T4bN2M0,0,0,2,3,70%,"Neoadjuvant Chemotherapy, Herceptin, Mastectomy, Axillary Surgery, Radiotherapy",Entry
+18,NULL,JOS,37,F,18,18,1,1,Bernard Seshie,,,18,18,1,Invasive Carcinoma,5,NULL,NULL,3,1,0,2,T2N1M0,1,1,0,3,70%,"Breast Conserving Surgery, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy, Hormonal Therapy",Entry
+19,NULL,JS,32,F,19,19,1,1,Bernard Seshie,,,19,19,1,Infiltrating ductal carcinoma,8,NULL,NULL,NULL,1,0,4b,T4bN1M0,1,1,2,0,,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy, Hormonal Therapy",Entry
+20,NULL,FAA,53,F,20,20,1,1,Bernard Seshie,,,20,20,1,Invasive Carcinoma with lobular morphology,15,NULL,NULL,2,2,0,4b,T4bN2Mx,1,0,0,2,20%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Radiotherapy, Hormonal Therapy",Entry
+21,NULL,VL,74,F,21,21,1,1,Bernard Seshie,,,21,21,1,Invasive Carcinoma,1.78,NULL,NULL,3,0,0,2,T2N0Mx,0,0,0,3,60%,"Mastectomy, Axillary Surgery, Adjuvant Chemotherapy",Entry
+42,NULL,ES,44,F,42,42,1,1,Bernard Seshie,,,42,42,1,Micropapillary Carcinoma,1,NULL,NULL,2,0,0,1,T1N0M0,1,1,0,2,20%,"Breast Conserving Surgery, Adjuvant Chemotherapy, Radiotherapy, Hormonal Therapy",Entry
+3,NULL,,59,F,3,3,2,2,,,,3,3,2,Infiltrating Mammary Carcinoma ,2.7,NULL,NULL,2,NULL,0,NULL,,1,1,0,0,,"Breast Conserving Surgery, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy, Hormonal Therapy",Entry
+11,NULL,PA,31,F,11,11,2,2,,,,11,11,2,Invasive Carcinoma,6,NULL,NULL,3,1,0,3,T3N1Mx,0,0,0,3,70%,"Neoadjuvant Chemotherapy, Breast Conserving Surgery, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy",Entry
+13,NULL,PEQ,59,F,13,13,2,2,,,,13,13,2,Invasive Carcinoma,1.2,0.4,NULL,2,1,0,1,T1N1M0,0,0,2,3,40%,"Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy",Entry
+22,NULL,GAA,57,F,22,22,2,2,,,,22,22,2,Metaplastic Carcinoma,3.4,2.5,2.9,3,1,0,3,T3N1Mx,0,0,0,3,70%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Radiotherapy",Entry
+43,NULL,BA,47,F,43,43,2,2,,,,43,43,2,Ductal Carcinoma,3,NULL,NULL,NULL,0,0,is,TisN0M0,0,0,2,3,60%,"Breast Conserving Surgery, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy",Entry
+44,NULL,GAA,64,F,44,44,2,2,,,,44,44,2,Invasive Carcinoma,3.58,NULL,NULL,3,1,0,2,T2N1M0,0,0,0,3,90%,"Breast Conserving Surgery, Axillary Surgery, Radiotherapy, Adjuvant Chemotherapy",Entry
+45,NULL,MG,64,F,45,45,2,2,,,,45,45,2,Invasive Carcinoma,7,NULL,NULL,2,1,0,3,T3N1M0,1,1,0,3,60%,"Neoadjuvant Chemotherapy, Mastectomy, Radiotherapy, Hormonal Therapy",Entry
+46,NULL,AE,48,F,46,46,2,2,,,,46,46,2,Invasive Carcinoma,4.2,NULL,NULL,3,1,0,2,T2N1M0,0,0,0,3,80%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery",Entry
+47,NULL,BS,51,F,47,47,2,2,,,,47,47,2,Invasive Carcinoma,3.5,NULL,NULL,3,1,0,4b,T4bN1M0,1,1,0,2,10%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Hormonal Therapy",Entry
+48,NULL,MA,43,F,48,48,2,2,,,,48,48,2,Invasive Ductal Carcinoma,10,NULL,NULL,3,1,0,4b,T4bN1M0,1,1,0,3,50%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Radiotherapy, Hormonal Therapy",Entry
+17,NULL,TM,43,F,17,17,3,3,Dr Agbodo,,,17,17,3,Invasive Carcinoma,10,NULL,NULL,2,2,1,4c,T4cN2M1,1,0,0,3,40%,Hormonal Therapy,Entry
+23,NULL,HE,54,F,23,23,4,4,Bertrand Ayeo,,,23,23,4,Invasive Carcinoma,2.28,NULL,NULL,2,1,0,2,T2N1M0,1,1,0,3,50%,"Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Hormonal Therapy",Entry
+25,NULL,SA,54,F,25,25,4,4,Bertrand Ayeo,,,25,25,4,Invasive Carcinoma,3.4,NULL,NULL,3,1,0,2,T2N1M0,0,0,0,3,80%,"Breast Conserving Surgery, Adjuvant Chemotherapy, Radiotherapy",Entry
+26,NULL,GD,61,F,26,26,4,4,Bertrand Ayeo,,,26,26,4,Invasive Carcinoma,3,NULL,NULL,3,0,0,2,T2N0M0,0,0,0,3,80%,"Breast Conserving Surgery, Adjuvant Chemotherapy, Radiotherapy",Entry
+27,NULL,EA,56,F,27,27,4,4,Bertrand Ayeo,,,27,27,4,Invasive Carcinoma,2.24,NULL,NULL,3,1,0,2,T2N1M0,0,0,2,3,60%,"Mastectomy, Adjuvant Chemotherapy, Herceptin, Radiotherapy",Entry
+28,NULL,AB,60,F,28,28,4,4,Bertrand Ayeo,,,28,28,4,Invasive Carcinoma,5,NULL,NULL,2,0,0,3,T3N0M0,1,1,2,3,40%,"Mastectomy, Adjuvant Chemotherapy, Herceptin, Hormonal Therapy",Entry
+29,NULL,VA,39,F,29,29,4,4,Bertrand Ayeo,,,29,29,4,Invasive Lobular Carcinoma,5,NULL,NULL,1,1,1,3,T3N1M1,0,0,0,3,80%,"Neoadjuvant Chemotherapy, Mastectomy",Entry
+30,NULL,AB,46,F,30,30,4,4,Bertrand Ayeo,,,30,30,4,Ductal Carcinoma,2.03,NULL,NULL,NULL,0,0,is,TisN0M0,1,1,0,2,20%,"Mastectomy, Adjuvant Chemotherapy, Hormonal Therapy",Entry
+31,NULL,CA,65,F,31,31,4,4,Bertrand Ayeo,,,31,31,4,Invasive Carcinoma,2.5,NULL,NULL,3,2,0,4b,T4bN2M0,0,0,0,3,80%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy",Entry
+32,NULL,RS,64,F,32,32,4,4,Bertrand Ayeo,,,32,32,4,Invasive Carcinoma,3.2,1.5,NULL,3,2,0,4b,T4bN2M0,1,1,0,3,60%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Radiotherapy, Hormonal Therapy",Entry
+33,NULL,ENW,71,F,33,33,4,4,Bertrand Ayeo,,,33,33,4,Mucinous Carcinoma,2,NULL,NULL,NULL,0,0,2,T2N0M0,1,1,0,2,8%,"Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy, Hormonal Therapy",Entry
+34,NULL,VOB,35,F,34,34,4,4,Bertrand Ayeo,,,34,34,4,Metaplastic Carcinoma,6,NULL,NULL,3,NULL,0,3,T3NxM0,0,0,0,3,80%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Radiotherapy",Entry
+35,NULL,VA,61,F,35,35,4,4,Bertrand Ayeo,,,35,35,4,Invasive Carcinoma,3,NULL,NULL,2,0,0,2,T2N0M0,1,1,0,2,20%,"Breast Conserving Surgery, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy, Hormonal Therapy",Entry
+36,NULL,SWC,41,F,36,36,4,4,Bertrand Ayeo,,,36,36,4,Invasive Carcinoma,3,NULL,NULL,3,1,0,4b,T4bN1Mx,0,0,0,3,80%,"Mastectomy, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy",Entry
+37,NULL,COD,62,F,37,37,4,4,Bertrand Ayeo,,,37,37,4,Invasive Carcinoma,4,NULL,NULL,3,1,0,4b,T4bN1M0,0,0,0,3,80%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Radiotherapy",Entry
+39,NULL,RA,42,F,39,39,4,4,Bertrand Ayeo,,,39,39,4,Invasive Carcinoma,2.1,NULL,NULL,3,1,0,2,T2N1M0,0,0,2,3,40%,"Breast Conserving Surgery, Axillary Surgery, Adjuvant Chemotherapy, Radiotherapy",Entry
+40,NULL,AS,37,F,40,40,4,4,Bertrand Ayeo,,,40,40,4,Invasive Carcinoma,6,NULL,NULL,1,1,0,3,T3N1M0,1,0,0,2,10%,"Neoadjuvant Chemotherapy, Mastectomy, Axillary Surgery, Radiotherapy, Hormonal Therapy",Entry
