@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database View</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+</head>
+<body class="bg-gray-100">
+
+    <nav class="bg-white shadow-md p-4">
+        <div class="flex justify-between items-center px-1">
+            <a href="/" class="text-xl font-bold text-gray-700">AI Oncological Treatment Planner</a>
+        </div>
+    </nav>
+
+    <section class="flex-grow flex items-center justify-center mt-24 px-6">
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center w-fit max-w-full overflow-auto">
+            <h2 class="text-3xl font-semibold mb-6">Patient Diagnosis Records</h2>
+            
+            <div class="overflow-x-auto">
+                <table class="min-w-full border border-gray-300 rounded-lg shadow-sm bg-white">
+                    <thead class="bg-blue-800 text-white">
+                        <tr>
+                            {% for column in columns %}
+                                <th class="px-4 py-3 border border-gray-600 text-left">
+                                    {{ column.replace("_", " ").title() }}
+                                </th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        {% for row in data %}
+                        <tr class="hover:bg-gray-100">
+                            {% for cell in row %}
+                                <td class="px-4 py-3 border border-gray-300 text-left">
+                                    {% if cell is string and cell.strip() %}
+                                        {{ cell.strip() }}
+                                    {% elif cell is number %}
+                                        {{ "%.2f"|format(cell) if cell is float else cell }}
+                                    {% else %}
+                                        N/A 
+                                    {% endif %}
+                                </td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="bg-gray-800 text-white py-6 text-center">
+        <p>Please note diagnoses provided are not for clincal use and models are for research purposes only.</p>
+    </footer>
+</body>
+</html>
